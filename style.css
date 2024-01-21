@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E0E0E0;
+  color: #212121;
+}
+
+main {
+  max-width: 64%;
+  margin: 1.6% auto;
+  padding: 1.6%;
+}
+
+h1, h2 {
+  color: #B6B900;
+  text-align: left;
+  text-transform: lowercase;
+}
+
+p {
+  text-transform: lowercase;
+  margin-bottom: 1.2%;
+}
+
+.monkey-picture {
+  margin-bottom: 2%;
+  padding-bottom: 0.8%;
+  display: flex;
+}
+
+#monkeyContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.monkeyImage {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  max-width: calc(64% - 3.2%); /* Adjust based on your layout */
+  width: 100%;
+  border-radius: 5px; /* Adjust the radius as needed */
+}
