@@ -1,5 +1,5 @@
   function getPath() {
-    var numImages = 93; //this has to be the number of images we have, apparently can't just count idk why. So we need to change this whenever we add images.
+    var numImages = 93; //update this number every time images are added
     var pathNum = Math.floor(Math.random() * numImages) + 1;
     return `images/monkey${pathNum}.jpg`;
   }
