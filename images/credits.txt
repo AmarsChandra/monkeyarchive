@@ -1,1 +1,5 @@
-
+All images from
+https://www.pexels.com/search/monkey/
+and
+https://images.cv/dataset/monkey-image-classification-dataset
+Images were vetted to ensure quality
