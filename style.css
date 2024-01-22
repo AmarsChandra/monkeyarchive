@@ -39,7 +39,7 @@ p {
 .monkeyImage {
   margin-bottom: 25px;
   margin-top: 25px;
-  max-width: calc(64% - 3.2%);
+  max-width: 100%;
   width: 100%;
   border-radius: 5px;
 }
