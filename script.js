@@ -1,5 +1,5 @@
   function getPath() {
-    var numImages = 93; //update this number every time images are added
+    var numImages = 2094; //update this number every time images are added
     var pathNum = Math.floor(Math.random() * numImages) + 1;
     return `images/monkey${pathNum}.jpg`;
   }
