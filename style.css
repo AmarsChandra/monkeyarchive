@@ -43,3 +43,10 @@ p {
   width: 100%;
   border-radius: 5px;
 }
+
+/* Checking for screens smaller than 768px (mobile screens) */
+@media screen and (max-width: 768px) {
+  .monkeyImage {
+    max-width: 100%;
+  }
+}
